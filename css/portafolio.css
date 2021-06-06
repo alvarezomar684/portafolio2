@@ -369,9 +369,8 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
     position: relative;
 }
 
-.overlay {
-    left: 0;
-    right: 100%;
+.overlay, .overlay0 {
+    left: 0;        
     bottom: 40%;
     top: 0;
     background-color: #ffb400;
@@ -382,6 +381,10 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
 
 .portfolio-item:hover .overlay {
     right: 0;
+}
+
+.portfolio-item:hover .overlay0 {
+    right: 10px;
 }
 
 

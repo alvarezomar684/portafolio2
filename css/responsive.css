@@ -1,0 +1,187 @@
+@media (max-width: 1320px){
+
+    .son-02 > h2 {
+        font-size: 64px; 
+              
+    }
+
+    .shadow-tittle {        
+        font-size: 100px;              
+        margin-top: -14px;
+        
+    }
+
+    img {
+        width: 83%;
+        height: 100%;
+    }   
+    
+    .portfolio-item:hover .overlay {
+        right: 55px;
+    }
+
+    .category {        
+        margin-left: 113px;
+        margin-top: 165px;  
+    }
+
+    .category2 {        
+        margin-left: 42px;
+        margin-top: 165px;  
+    }
+
+    .overlay0 {
+        left: -42px;        
+        bottom: 40%;
+        top: 0;
+        background-color: #ffb400;
+        transition: right 0.3s;
+        position: absolute;
+        border-radius: 15px;
+    }
+    
+    .portfolio-item:hover .overlay0 {
+        right: 0px;
+    }
+    
+    
+}
+
+@media (max-width: 960px){
+
+    .son-02 > h2 {
+        font-size: 64px; 
+              
+    }
+
+    .shadow-tittle {        
+        font-size: 100px;              
+        margin-top: -14px;
+        
+    }
+
+    img {
+        width: 60%;
+        height: 100%;
+        margin-left: 20px;
+    }
+
+    .img1 {
+        margin-bottom: 30px;
+    }
+
+    .img2 {
+        width: 372px;
+        margin-left: -213px;
+    }
+
+
+    .son-03 {
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 70%;
+        margin-right: -229px;
+    }
+    
+    .overlay0 {
+        left: -198px;        
+        bottom: 40%;
+        top: 0;
+        background-color: #ffb400;
+        transition: right 0.3s;
+        position: absolute;
+        border-radius: 15px;
+    }
+
+    .portfolio-item:hover .overlay {
+        right: 162px;
+    }
+
+    .category {        
+        margin-left: 76px;
+        margin-top: 121px;  
+    }
+
+    .category2 {        
+        margin-left: -169px;
+        margin-top: 157px;  
+    }
+    
+}
+
+@media (max-width: 540px){
+    .son-02 > h2 {
+        font-size: 47px; 
+        margin-left: 53px;
+              
+    }
+
+    .shadow-tittle {        
+        font-size: 76px;              
+        margin-top: -11px;
+        
+    }
+       
+
+    .img1 {
+        margin-bottom: 30px;
+        width: 250px;
+        margin-right: 231px;
+    }
+
+    .img2 {
+        width: 250px;
+        margin-left: -213px;
+    }
+
+
+    .son-03 {
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 70%;
+        margin-right: -229px;
+    }
+
+    .overlay0 {
+        left: -198px;        
+        bottom: 40%;
+        top: 0;
+        background-color: #ffb400;
+        transition: right 0.3s;
+        position: absolute;
+        border-radius: 15px;
+    }
+
+    .portfolio-item:hover .overlay {
+        right: 227px;
+    }
+
+    .category {        
+        margin-left: 18px;
+        margin-top: 87px;
+        font-size: 23px; 
+    }
+
+    .category2 {        
+        margin-left: -186px;
+        margin-top: 107px;
+        font-size: 21px;  
+    }
+
+    .gear {
+        font-size: 20px;
+        margin: 0 auto;      
+    }
+
+    .son-04 {
+        margin-top: -248px;
+        margin-right: 10px;
+    }
+
+    .son-01 {
+        margin-top: -248px;        
+    }
+
+    
+}
+
