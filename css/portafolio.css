@@ -387,7 +387,9 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
     right: 10px;
 }
 
-
+.color-blue {
+    color: blue !important;
+}
 
   
 
