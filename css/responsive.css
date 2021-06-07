@@ -1,5 +1,4 @@
 @media (max-width: 1320px){
-
     .son-02 > h2 {
         font-size: 64px; 
               
@@ -7,8 +6,7 @@
 
     .shadow-tittle {        
         font-size: 100px;              
-        margin-top: -14px;
-        
+        margin-top: -14px;        
     }
 
     img {
@@ -42,13 +40,10 @@
     
     .portfolio-item:hover .overlay0 {
         right: 0px;
-    }
-    
-    
+    }    
 }
 
 @media (max-width: 960px){
-
     .son-02 > h2 {
         font-size: 64px; 
               
@@ -56,8 +51,7 @@
 
     .shadow-tittle {        
         font-size: 100px;              
-        margin-top: -14px;
-        
+        margin-top: -14px;        
     }
 
     img {
@@ -74,7 +68,6 @@
         width: 372px;
         margin-left: -213px;
     }
-
 
     .son-03 {
         flex-direction: column;
@@ -105,23 +98,19 @@
     .category2 {        
         margin-left: -169px;
         margin-top: 157px;  
-    }
-    
+    }    
 }
 
 @media (max-width: 540px){
     .son-02 > h2 {
         font-size: 47px; 
-        margin-left: 53px;
-              
+        margin-left: 53px;              
     }
 
     .shadow-tittle {        
         font-size: 76px;              
-        margin-top: -11px;
-        
-    }
-       
+        margin-top: -11px;        
+    }       
 
     .img1 {
         margin-bottom: 30px;
@@ -133,7 +122,6 @@
         width: 250px;
         margin-left: -213px;
     }
-
 
     .son-03 {
         flex-direction: column;
@@ -180,8 +168,6 @@
 
     .son-01 {
         margin-top: -248px;        
-    }
-
-    
+    }    
 }
 

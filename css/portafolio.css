@@ -1,12 +1,11 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: content-box;  
     font-family: 'Open Sans';
     color: #FFFFFF;
     list-style: none;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 body {
@@ -37,18 +36,14 @@ body {
 }
 
 .gear,.arrow, .icon {
-    font-family: "WebSymbolsRegular";
-    
+    font-family: "WebSymbolsRegular";    
 }
 
 img {
     width: 100%;
 }
 
-
-
-.father {
-    
+.father {    
     height: auto;
     display: flex;
     flex-flow: row wrap;
@@ -56,18 +51,13 @@ img {
     min-height: 907px;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 
-.son {
-    
+.son {    
     height: 360px;
     margin-left: 5px;
     margin-right: 5px;
-    display: flex;
-    
-    
+    display: flex;    
 }
 
 .son-01 {
@@ -77,8 +67,7 @@ img {
     border-radius: 5px;
     width: auto;
     height: auto;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 .son-02 {
@@ -96,8 +85,7 @@ img {
     font-family: 'Poppins', sans-serif;
     margin-right: 376px;
     margin-top: 11px;
-    position: absolute;
-    
+    position: absolute;    
 }
 
 .son-02 > h2 > span {        
@@ -115,66 +103,50 @@ img {
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: -43px;
-    
+    margin-top: -43px;    
 }
 
-
-.grandchild-02-01 {
-    
+.grandchild-02-01 {    
     flex-basis: 100%;
     height: 05%;
 }
 
-.grandchild-02-02 {
-    
+.grandchild-02-02 {    
     flex-basis: 46%;
-    height: 45%;
-    
-    
+    height: 45%;    
 }
 
-.grandchild-02-03 {
-    
+.grandchild-02-03 {    
     flex-basis: 45%;
     height: 45%;
 }
 
-.grandchild-02-04 {
-    
+.grandchild-02-04 {    
     flex-basis: 100%;
     height: 10%;
-    align-self: flex-end;
-    
+    align-self: flex-end;    
 }
 
-
 .son-03 {
-    flex-basis: 80%;
-    
+    flex-basis: 80%;    
     display: flex;   
     justify-content: space-evenly;
     flex-flow: row wrap;
     height: auto;
 }
 
-
 .son-04 {
     flex-basis: 5%;    
     margin-right: 25px;
     display: flex;
     flex-flow: column wrap;    
-    height: auto; 
-    
-
+    height: auto;
 }
 
-.grandchild-04-00  {
+.grandchild-04-00 {
     flex-basis: 100%;
-    height: 80px;
-    
+    height: 80px;    
 }
-
 
 .icon-google {    
     font-size: 22px;
@@ -194,8 +166,7 @@ img {
     opacity: 0;
     transition: all 300ms;
     text-align: center;
-    padding-top: 23px;
-    
+    padding-top: 23px;    
 }
 
 .overlay2 {
@@ -211,8 +182,7 @@ img {
     opacity: 0;
     transition: all 300ms;
     text-align: center;
-    padding-top: 23px;
-    
+    padding-top: 23px;    
 }
 
 .overlay3 {
@@ -229,8 +199,7 @@ img {
     transition: all 300ms;
     text-align: center;
     padding-top: 23px;
-    margin-top: -70px;
-    
+    margin-top: -70px;    
 }
 
 .overlay4 {
@@ -247,8 +216,7 @@ img {
     transition: all 300ms;
     text-align: center;
     padding-top: 23px;
-    margin-top: -70px;
-    
+    margin-top: -70px;    
 }
 
 .grandchild-04-01 a, .grandchild-04-02 a {
@@ -275,8 +243,7 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
     width: 60px;
     height: 40px;
     color: white;
-    text-align: center; 
-
+    text-align: center;
 }
 
 .son-04 a:hover {    
@@ -313,13 +280,11 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
 
 
 .son-03 img {
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 .grandchild-03-01:hover img, .grandchild-03-02:hover img {
-    opacity: 0;
-    
+    opacity: 0;    
 }
 
 .category {
@@ -329,8 +294,7 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
     margin-top: 203px;    
     position: absolute;
     z-index: 1;
-    opacity: 0;    
-
+    opacity: 0;
 }
 
 .category2 {
@@ -340,15 +304,12 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
     margin-top: 203px;    
     position: absolute;
     z-index: 1;
-    opacity: 0;    
-
+    opacity: 0;
 }
 
-.grandchild-03-01:hover .category, .grandchild-03-02:hover .category2 {
-    
+.grandchild-03-01:hover .category, .grandchild-03-02:hover .category2 {    
     opacity: 1;
     animation: showCategory 300ms linear;
-
 }
 
 
